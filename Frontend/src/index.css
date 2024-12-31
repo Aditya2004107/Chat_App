@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.flex-adi::-webkit-scrollbar{
+    display: none;
+
+}
