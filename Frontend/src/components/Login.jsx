@@ -28,6 +28,7 @@ const login = () => {
         setAuthuser(Response.data);
       })
       .catch((error) => {
+        toast.error("Sorry failed to login");
         if (error.Response) {
           toast.error("ERROR :)", error.Response.data.error);
         }
